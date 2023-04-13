@@ -1,5 +1,11 @@
 {
   "tasks": {
     "init-ch": "deno run --allow-env --allow-net manage/init.ts"
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["camelcase"]
+    }
   }
 }

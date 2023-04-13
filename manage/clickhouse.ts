@@ -13,7 +13,7 @@ export class ClickHouse {
     this.options = options;
   }
 
-  async execute(query: string): Promise<any> {
+  async execute(query: string): Promise<string> {
     const params = new URLSearchParams();
     params.set("query", query);
 
