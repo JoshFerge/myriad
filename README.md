@@ -9,6 +9,7 @@ TODO 4/13:
 - [ ] License
 - [ ] research open source biz models
 - [ ] determine API to link up with Grafana
+- [ ] look into OpenAPI format // link up with chatGPT?
 
 
 TODO 4/11:
